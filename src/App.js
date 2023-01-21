@@ -18,14 +18,14 @@ function App() {
       <header>
           <img src={require("./images/icons8-male-user-48.png")} alt="logo"></img>
           <nav>
-              <ul class="nav__links">
-                  <li><a href="#featured-projects"><button class="button">New Project</button></a></li>
-                  <li><a href="#contact"><button class="button">My Projects</button></a></li>
+              <ul className="nav__links">
+                  <li><a href="#featured-projects"><button className="button">New Project</button></a></li>
+                  <li><a href="#contact"><button className="button">My Projects</button></a></li>
               </ul>
           </nav>
       </header>
       <div className="main">
-        <section class="s1">
+        <section className="s1">
         <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Fredoka+One&family=Kavoon&display=swap" rel="stylesheet"></link>
           <h1>Project Panini</h1>
           <p>Type some prompts to get started!</p>

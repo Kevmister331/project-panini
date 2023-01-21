@@ -1,12 +1,11 @@
 import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
-  apiKey: "",
+  apiKey: process.env.REACT_APP_OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
 export default async function (keywords) {
-  console.log(process.env.REACT_APP_OPENAI_API_KEY)
   if (!configuration.apiKey) {
     console.log("Key invalid")
     return;
@@ -32,5 +31,6 @@ export default async function (keywords) {
 }
 
 function generatePrompt(keywords) {
-  return `Brainstorm some coding project ideas that combine the following keywords: ${keywords}`
+  return `Brainstorm some coding project ideas that combine the following keyword(s): ${keywords}
+  Ideas:`
 }
