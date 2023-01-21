@@ -63,3 +63,52 @@ h1 {
     width: 100%;
     transition: 0.4s;
 }
+
+.nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 3px 7px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #FFF4D6;
+    border: none;
+    border-radius: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 1000;
+  }
+  
+  .button:hover {background-color: #f2db76}
+  
+  .button:active {
+    background-color: #f2db76;
+    transform: translateY(4px);
+  }

@@ -5,8 +5,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-          <header>
-            <img src={require("./images/icons8-male-user-48.png")} alt="logo"></img>
+        <header>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#featured-projects"><button className="button">New Project</button></a></li>
+                    <li><a href="#contact"><button className="button">My Projects</button></a></li>
+                </ul>
+            </nav>
+            <a target="_blank" href="https://www.pornhub.com/">
+              <img src={require("./images/icons8-male-user-48.png")} alt="logo"></img>
+            </a>
+
         </header>
 
         <div className="main">
