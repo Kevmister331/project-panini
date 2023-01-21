@@ -1,5 +1,11 @@
 import React from 'react';
 import './App.css';
+import dashboard from "./dashboard";
+import detailedtask from "./detailedtask";
+import tasklist from "./tasklist";
+import loginpopup from "./loginpopup";
+import { Route, Link } from "react-router-dom";
+
 
 function App() {
   return (
@@ -11,6 +17,12 @@ function App() {
           <div></div>
         </form>
       </header>
+
+      <Route exact path="/dashboard" component={dashboard} />
+      <Route exact path="/tasklist" component={tasklist} />
+      <Route exact path="/loginpopup" component={loginpopup} />
+      <Route exact path="/detailedtask" component={ detailedtask } />
+
     </div>
   );
 }
