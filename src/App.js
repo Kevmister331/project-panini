@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
         <header>
+          <div></div>
             <nav>
                 <ul class="nav__links">
                     <li><a href="#featured-projects"><button className="button">New Project</button></a></li>
