@@ -1,8 +1,19 @@
-import React from 'react';
+import {useState} from 'react';
 import './App.css';
+
+import generate from './features/generate'
 
 
 function App() {
+  const [keywordInput, setKeywordInput] = useState("");
+  const [result, setResult] = useState();
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    const result = await generate(keywordInput)
+    setResult(result.choices[0].text)
+  }
+
   return (
     <div className="App">
         <header>
