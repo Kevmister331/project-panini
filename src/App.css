@@ -3,28 +3,38 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka One', cursive;
+    color:#8F5B4A;
 
-}
-
-body {
-    background-color: #FFF4D6;
 }
 
 .App {
+    background-color: #FFF4D6;
+}
+
+header {
+    vertical-align: top;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 3%;
+    background-color: #8F5B4A;
+  }
+  
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
   }
   
-header {
+.s1 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 h1 {
-    color:black;
+    color: #8F5B4A;
     font-size: 42px;
     text-transform: uppercase;
     text-align: center;
@@ -52,5 +62,4 @@ h1 {
     padding: 16px;
     width: 100%;
     transition: 0.4s;
-
 }
