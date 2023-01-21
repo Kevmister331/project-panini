@@ -8,6 +8,7 @@ function App() {
         <h1>Project Panini</h1>
         <form className="search-box">
           <input type="search" placeholder="Type interests here" />
+          <div></div>
         </form>
       </header>
     </div>
