@@ -22,7 +22,7 @@ function App() {
       <Route exact path="/dashboard" component={dashboard} />
       <Route exact path="/tasklist" component={tasklist} />
       <Route exact path="/loginpopup" component={loginpopup} />
-      <Route exact path="/detailedtask" component={ detailedtask } />
+      <Route exact path="/detailedtask" component={detailedtask} />
 
     </div>
   );
