@@ -6,9 +6,7 @@ function App() {
   return (
     <div className="App">
           <header>
-            <nav>
-            <img src="icons8-make-user-48.png" alt="logo" width="30%" height="30%"></img>
-            </nav>
+            <img src={require("./images/icons8-male-user-48.png")} alt="logo"></img>
         </header>
 
         <div className="main">
