@@ -54,3 +54,8 @@ h1 {
     transition: 0.4s;
 
 }
+
+.results {
+    white-space: pre-line;
+    max-width: 500px;
+}
