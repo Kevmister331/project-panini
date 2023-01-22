@@ -6,7 +6,7 @@ const Header = () => {
       <nav>
           <ul class="nav__links">
               <li>
-                <Link to="/">
+                <Link to="/"> 
                   <button className="button">New Project</button>
                 </Link>
               </li>
