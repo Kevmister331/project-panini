@@ -168,11 +168,13 @@ form{
 
 
 form input {
-    width: 250px;
-    height: 40px;
-    border: none;
+    width: 300px;
+    height: 60px;
+    border: solid 1px #885D4D;
     outline: none;
     color: rgb(14, 12, 12);
+    font-size: 15px;
+    padding-left: 10px;
 }
 
 .search-btn {
@@ -352,11 +354,11 @@ button2 {
 
 .submit {
 	background-color:#885D4D;
-	border-radius:28px;
+	border-radius:20px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	padding:16px 31px;
+	padding:5px 31px;
 	text-decoration:none;
     width: 300px;
     margin-bottom: 8px;

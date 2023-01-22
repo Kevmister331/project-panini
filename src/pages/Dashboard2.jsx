@@ -66,13 +66,13 @@ function Dashboard2(){
                     <button
                     onClick={addTask}
                         className="btn-lg btn-success">
-                    Add Task</button>
+                    Add Project</button>
 
                 </div>
             </div>
             <br />
 
-            {toDo && toDo.length ? '' : 'No Tasks...'}
+            {toDo && toDo.length ? '' : 'No Projects...'}
 
             {toDo && toDo
             .sort((a, b) => a.id > b.id ? 1 : -1)
