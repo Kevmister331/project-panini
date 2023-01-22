@@ -1,6 +1,7 @@
 
 import {useState} from 'react';
 import IdeaGroup from '../components/IdeaGroup';
+import FilterOptions from '../components/FilterOptions';
 import generate from '../features/generate'
 
 
@@ -13,9 +14,9 @@ const Generate = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    // const apiResult = await generate(keywordInput)
-    // console.log(apiResult.choices[0].text);
-    // setResult(apiResult.choices[0].text)
+    const apiResult = await generate(keywordInput)
+    console.log(apiResult.choices[0].text);
+    setResult(apiResult.choices[0].text)
     setIsLoading(false);
     setSelectPage(true);
   }
@@ -69,9 +70,12 @@ const Generate = () => {
     })
     console.log(results)
     return (
-      <div className="ideas-container">
-        <h1>Results</h1>
-        {results.map(item => <IdeaGroup name={item.name} desc={item.description}/>)}
+      <div className="select-page">
+        <div className="ideas-container">
+          <h1>Results</h1>
+          {results.map(item => <IdeaGroup name={item.name} desc={item.description}/>)}
+        </div>
+        <FilterOptions keywords={keywordInput} onSubmit={onSubmit}/>
       </div>
     )
   }
