@@ -23,21 +23,21 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="sideright">
-          <h1 id="poopy"></h1>
+          <h1 id="poopy">Task List</h1>
         <div className="one-box">
-            <h3>Research</h3>
+            <h5>Research</h5>
             <p>Conduct research on publicly available APIs for desired NBA statistics, and what technologies are able to integrate an AI system.</p>
         </div>
         <div className="one-box">
-            <h3>Train AI</h3>
+            <h5>Train AI</h5>
             <p>Train a machine learning model using the preprocessed data to predict and analyze the performance metrics from the API</p>
         </div>
         <div className="one-box">
-            <h3>Implement Real-Time Processing</h3>
+            <h5>Implement Real-Time Processing</h5>
             <p>Integrate the AI model into a system that can process and analyze player movements in real-time, using technologies such as computer vision and deep learning</p>
           </div>
           <div className="one-box">
-            <h3>Testing and Deployment</h3>
+            <h5>Testing and Deployment</h5>
             <p>Test the system and monitor possible improvements over time.</p>
           </div>
         </div>

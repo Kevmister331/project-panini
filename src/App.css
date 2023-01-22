@@ -145,7 +145,6 @@ h1 {
     float: left;
     width: 25%;
     background-color: #FBF8EE;
-
     display: grid;
     grid-template-rows: auto;
     gap: 20px;
@@ -226,6 +225,11 @@ ul li span{
     border-radius: 20px;
     padding: 10px 20px;
   }
+
+.one-box p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
 
 
 /* CSS FOR THE DASHBOARD2 PAGE */

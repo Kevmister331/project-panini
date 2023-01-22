@@ -8,7 +8,7 @@ import {
 function Dashboard2(){
 
     const [toDo, setToDo] = useState([
-        {"id": 1, "title": "CPSC 210", "status": false},
+        {"id": 1, "title": "Court Vision", "status": false},
         {"id": 2, "title": "Personal Website", "status": false}
 
     ]);
