@@ -4,8 +4,6 @@
     box-sizing: border-box;
     font-family: 'Fredoka One', cursive;
     color:#8F5B4A;
-    color:#8F5B4A;
-
 }
 
 .App {
@@ -99,7 +97,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: rgb(0, 0, 0);
+    color: #8F5B4A;
     background-color: #FFF4D6;
     border: none;
     border-radius: 10px;
@@ -117,4 +115,75 @@ h1 {
 .results {
     max-width: 500px;
     white-space: pre-line;
+}
+
+/* CSS FOR THE DASHBOARD */
+.dashboard:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.side {
+    float: left;
+    width: 25%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.middle {
+    float: left;
+    width: 50%;
+    min-height: 100vh;
+    padding: 10px;
+    background-color: #07f280;
+}
+
+form{
+    margin-top: 30px;
+    box-shadow: -3px 6px 4px #222;
+}
+
+form input {
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    color: rgb(14, 12, 12);
+}
+
+form button {
+    width: 50px;
+    height: 40px;
+    border: none;
+    background: #0088a9;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.list-container {
+    margin-top: 50px;
+}
+
+.list-container ul li {
+    width: 100%;
+    background: white;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin: 5px 0;
+    box-shadow:-3px 6px 4px #222;
+}
+
+ul li span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    text-align: ce;
 }
