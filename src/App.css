@@ -8,10 +8,6 @@
     color:#8F5B4A;
 }
 
-a {
-  color: none;
-}
-
 .App {
     background-color: #FBF8EE;
 }
@@ -89,7 +85,8 @@ h1 {
   }
   
   .nav__links li {
-    padding: 3px 7px;
+    padding: 5px 7px;
+    height: 50px;
   }
   
   .nav__links li a {
@@ -102,7 +99,7 @@ h1 {
 
   .button {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 15px 15px;
     font-size: 15px;
     cursor: pointer;
     text-align: center;
@@ -475,6 +472,7 @@ button2 {
   justify-content: flex-start;
   align-items: center;
   margin-right: auto;
+  text-decoration: none;
 }
 
 #logo-text {
@@ -483,6 +481,7 @@ button2 {
   padding-bottom: 5px;
   width: 80px;
   text-align: center;
+  text-decoration: none;
 }
 
 #main-title {
@@ -497,4 +496,53 @@ button2 {
     transform: translateY(-50px);
   }
   
+}
+
+.select-page {
+  display: flex;
+
+}
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 2em;
+  flex: auto;
+}
+
+.filter-section h1 {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.filter-container {
+  border-radius: 10px;
+  border: solid 1px #885D4D;
+  background: #ffffff;
+  padding: 15px 30px;
+  width: 100%;
+}
+
+.filter-search-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.difficulty-selection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.difficulty-btn {
+  border-radius: 5px;
+  background: #FFECBC;
+  border: none;
+  padding: 8px 12px;
+  min-width: 100px;
+  box-shadow: 1px 2px 2px #222;
+}
+
+.selected {
+  background: #FFDA7B;
 }
