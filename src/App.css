@@ -162,6 +162,10 @@ h1 {
     text-align: left;
 }
 
+.middle-container {
+  background: #FFFFFF;
+}
+
 form{
     margin-top: 10px;
     border-radius: 20px;
@@ -570,4 +574,24 @@ button2 {
 
 .project-description p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.keyword-badges {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.middle .button {
+  min-width: 100px;
+  background: #885D4D;
+  color: #FFECBC;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.middle .button {
+  min-width: 100px;
+  background: #885D4D;
+  color: #FFECBC;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
