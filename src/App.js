@@ -23,7 +23,7 @@ function App() {
                   <li><a href="#contact"><button className="button">My Projects</button></a></li>
               </ul>
           </nav>
-          <a target="_blank" href="https://www.googley.com/">
+          <a target="_blank" href="https://www.google.com/">
             <img src={require("./images/icons8-male-user-48.png")} alt="logo"></img>
           </a>
       </header>
