@@ -6,12 +6,10 @@
     box-sizing: border-box;
     font-family: 'Fredoka One', cursive;
     color:#8F5B4A;
-    color:#8F5B4A;
-
 }
 
 .App {
-    background-color: #FFF4D6;
+    background-color: #FBF8EE;
 }
 
 header {
@@ -34,6 +32,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -101,8 +100,8 @@ h1 {
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: rgb(0, 0, 0);
-    background-color: #FFF4D6;
+    color: #8F5B4A;
+    background-color: #FBF8EE;
     border: none;
     border-radius: 10px;
     font-family: "Roboto Condensed", sans-serif;
@@ -119,6 +118,161 @@ h1 {
 .results {
     max-width: 500px;
     white-space: pre-line;
+}
+
+/* CSS FOR THE DASHBOARD */
+.dashboard:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.sideleft {
+    float: left;
+    width: 20%;
+    min-height: 100vh;
+    padding: 10px;
+    background-color: #FFECBC;
+}
+
+.sideright {
+    float: left;
+    width: 18%;
+    min-height: 100vh;
+    background-color: #FBF8EE;
+
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.middle {
+    float: left;
+    width: 60%;
+    min-height: 100vh;
+    padding: 10px;
+    background-color: #FBF8EE;
+    text-align: left;
+}
+
+form{
+    margin-top: 30px;
+    box-shadow: -3px 6px 4px #222;
+}
+
+form input {
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    color: rgb(14, 12, 12);
+}
+
+form button {
+    width: 50px;
+    height: 40px;
+    border: none;
+    background: #0088a9;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.list-container {
+    margin-top: 50px;
+}
+
+.list-container ul li {
+    width: 100%;
+    background: white;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin: 5px 0;
+    box-shadow:-3px 6px 4px #222;
+}
+
+ul li span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    text-align: ce;
+}
+
+.one-box {
+    display: grid;
+    border-style: solid;
+    gap: 20px;
+    background-color: white;
+  }
+
+.auth-form-container, .login-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBF8EE;
+  padding: 0.5rem;
+  margin: 0.1rem;
+}
+
+@media screen and (min-width: 600px){
+  .auth-form-container{
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label
+{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button2 {
+  border: none;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0.25rem;
+  font-size: 10px;
+}
+
+button3 {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+#dancing {
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+}
+
+#panini {
+    width: 30%;
+    height: 30%;
 }
 
 .ideas-container {
