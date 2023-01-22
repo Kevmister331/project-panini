@@ -30,6 +30,7 @@ const Generate = () => {
     return (
       <div className="main">
           <section class="s1">
+            <img id="panini" src={require("../images/panini.png")} alt="logo"></img>
             <h1>Project Panini</h1>
             <p>Type some prompts to get started!</p>
             <form className="search-box" onSubmit={onSubmit}>
