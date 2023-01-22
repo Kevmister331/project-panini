@@ -17,6 +17,8 @@ const Generate = () => {
     <div className="main">
         <section class="s1">
         <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Fredoka+One&family=Kavoon&display=swap" rel="stylesheet"></link>
+        <img id="panini" src={require("../images/panini.png")} alt="logo"></img>
+
           <h1>Project Panini</h1>
           <p>Type some prompts to get started!</p>
           <form className="search-box" onSubmit={onSubmit}>
