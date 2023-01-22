@@ -17,7 +17,6 @@ function App() {
   return (
     <div className="App">
       <header>
-          <img src={require("./images/icons8-male-user-48.png")} alt="logo"></img>
           <nav>
               <ul class="nav__links">
                   <li><a href="#featured-projects"><button className="button">New Project</button></a></li>
