@@ -411,3 +411,20 @@ button4 {
 .add-btn:hover .plus-svg {
   fill: #885D4D;
 }
+
+.loading-screen {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.loading-group {
+  margin: auto;
+  margin-top: 10rem;
+}
+
+#loading {
+  height: 300px;
+  width: 300px;
+}
