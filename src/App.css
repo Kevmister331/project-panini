@@ -8,6 +8,10 @@
     color:#8F5B4A;
 }
 
+a {
+  color: none;
+}
+
 .App {
     background-color: #FBF8EE;
 }
