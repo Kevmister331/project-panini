@@ -323,24 +323,32 @@ button2 {
   cursor: pointer;
   margin: 0.25rem;
   font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 9px;
 }
 
 button3 {
   border: none;
-  background-color: red;
+  background-color: #885D4D;
+  color: white;
   padding: 2px;
-  border-radius: 10px;
+  border-radius: 20px;
   cursor: pointer;
   margin: 0.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 9px;
 }
 
 button4 {
   border: none;
-  background-color: red;
+  background-color: #885D4D;
+  color: white;
   padding: 2px;
   border-radius: 10px;
   cursor: pointer;
   margin: 0.1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 9px;
 }
 
 #dancing {
