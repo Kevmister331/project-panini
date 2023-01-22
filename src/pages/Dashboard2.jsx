@@ -27,22 +27,23 @@ function Dashboard2(){
     }
 
     const deleteTask = (id) => {
+        let newTasks = toDo.filter( task => task.id !== id)
+        setToDo(newTasks);
         
     }
     
     const markDone = (id) => {
-        
-    }
-    
-    const cancelUpdate = () => {
-        
+        let newTask = toDo.map( task => {
+            if ( task.id === id)
+            {
+                return({...task, status: !task.status })
+            }
+            return task;
+        })
+       setToDo(newTask); 
     }
 
     const changeTask = (e) => {
-        
-    }
-
-    const updateTask = (e) => {
         
     }
 
@@ -51,19 +52,6 @@ function Dashboard2(){
             <br></br>
             <h2>My Projects</h2>
             <br></br>
-
-            <div className="row">
-                <div className="col">
-                    <input
-                    className="form-control form-control-lg"/>
-
-                </div>
-
-                <div className="col-auto">
-                    <button className="btn btn-lg btn-success mr-20">Update</button>
-                    <button className="btn btn-lg btn-warning">Cancel</button>
-                </div>
-            </div>
             <br />
 
             <div className="row">
@@ -102,13 +90,13 @@ function Dashboard2(){
 
                             </div>
                             <div className="iconsWrap">
-                                <span title="Completed / Not Completed">
+                                <span title="Completed / Not Completed"onClick={ (e) => markDone(task.id) }>
                                     <FontAwesomeIcon icon={faCircleCheck} />
                                 </span>
                                 <span title="Edit">
                                     <FontAwesomeIcon icon={faPen} />
                                 </span>
-                                <span title="Delete">
+                                <span title="Delete" onClick={() => deleteTask(task.id)}>
                                     <FontAwesomeIcon icon={faTrashCan} />
                                 </span>
                             </div>
