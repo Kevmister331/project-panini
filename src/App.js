@@ -3,6 +3,7 @@ import './App.css';
 import Generate from './pages/Generate'
 import Dashboard from './pages/Dashboard';
 import Header from './components/Header'
+import Login from './pages/Login'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Generate />} />
             <Route path='/user' element={<Dashboard />} />
+            <Route path='/login' element={<Login />} />
           </Routes>
         </div>
       </Router>
