@@ -22,7 +22,7 @@ function App() {
                   <li><a href="#featured-projects"><button className="button">New Project</button></a></li>
                   <li><a href="#contact"><button className="button">My Projects</button></a></li>
               </ul>
-          </nav>
+        </nav>
           <a target="_blank" href="https://www.pornhub.com/">
             <img src={require("./images/icons8-male-user-48.png")} alt="logo"></img>
           </a>

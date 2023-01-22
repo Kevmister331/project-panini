@@ -113,3 +113,8 @@ h1 {
     background-color: #f2db76;
     transform: translateY(4px);
   }
+
+.results {
+    max-width: 500px;
+    white-space: pre-line;
+}
