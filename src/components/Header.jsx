@@ -3,7 +3,7 @@ import {Link, useNavigate} from 'react-router-dom'
 const Header = () => {
   return (
     <header>
-            <img id="dancing" src={require("../images/dancing.gif")} alt="logo"></img>
+            <img id="dancing" src={require("../images/panini.png")} alt="logo"></img>
 
       <nav>
           <ul class="nav__links">

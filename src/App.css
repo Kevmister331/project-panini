@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 3%;
+    padding: 10px 3%;
     background-color: #8F5B4A;
   }
   
@@ -137,7 +137,7 @@ h1 {
 
 .sideright {
     float: left;
-    width: 18%;
+    width: 25%;
     min-height: 100vh;
     background-color: #FBF8EE;
 
@@ -148,9 +148,11 @@ h1 {
 
 .middle {
     float: left;
-    width: 60%;
+    width: 50%;
     min-height: 100vh;
-    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
     background-color: #FBF8EE;
     text-align: left;
 }
@@ -210,6 +212,7 @@ ul li span{
     gap: 20px;
     background-color: white;
   }
+
 
 /* CSS FOR THE DASHBOARD2 PAGE */
 dashboard2body {
@@ -341,8 +344,8 @@ button4 {
 }
 
 #dancing {
-    width: 50px;
-    height: 50px;
+    width: 10%;
+    height: 10%;
     margin-right: auto;
 }
 
@@ -369,4 +372,15 @@ button4 {
 
 .idea-desc {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#unique {
+    padding-right: 60%;
+    padding-bottom: 6%;
+}
+
+#poopy {
+    padding-right: 39%;
+    padding-top: 10%;
+    height: 10px;
 }

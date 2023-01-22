@@ -9,7 +9,7 @@ const Dashboard = () => {
 
 
         <div className="sideleft">
-          <h1>My Projects</h1>
+          <h2>My Projects</h2>
           <form>
             <input type="text" name="text" id="txt" required></input>
             <button type="submit" class="btn-list">
@@ -26,18 +26,24 @@ const Dashboard = () => {
           </div>
         
         </div>
-        <div className="middle"><h1>Project 1</h1></div>
+        <div className="middle">
+          <h1 id="unique">Project 1</h1>
+          <div className="one-box">
+            <h3>Tasks</h3>
+            <p>Task description here</p>
+        </div>
+        </div>
         <div className="sideright">
-          <h1>Tasks</h1>
-          <div className="one-box">
+          <h1 id="poopy">Tasks List</h1>
+        <div className="one-box">
             <h3>Tasks</h3>
             <p>Task description here</p>
-          </div>
-          <div className="one-box">
+        </div>
+        <div className="one-box">
             <h3>Tasks</h3>
             <p>Task description here</p>
-          </div>
-          <div className="one-box">
+        </div>
+        <div className="one-box">
             <h3>Tasks</h3>
             <p>Task description here</p>
           </div>
