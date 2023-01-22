@@ -3,7 +3,10 @@ import {Link, useNavigate} from 'react-router-dom'
 const Header = () => {
   return (
     <header>
-            <img id="dancing" src={require("../images/panini.png")} alt="logo"></img>
+      <Link to="/" className="logo-group"> 
+          <img id="dancing" src={require("../images/panini.png")} alt="logo"></img>
+          <div id="logo-text">Project Panini</div>
+      </Link>
 
       <nav>
           <ul class="nav__links">

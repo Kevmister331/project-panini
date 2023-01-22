@@ -1,3 +1,5 @@
+import Dashboard2 from "./Dashboard2"
+
 const Dashboard = () => {
   return (
     
@@ -6,21 +8,7 @@ const Dashboard = () => {
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       <link rel="stylesheet" href="style.css"></link>
         <div className="sideleft">
-          <h2>My Projects</h2>
-          <form>
-            <input type="text" name="text" id="txt" required></input>
-            <button type="submit" class="btn-list">
-                <i class="fa-solid fa-plus"></i>
-            </button>
-          </form>
-          <div class="list-container">
-            <ul>
-              <li>Project 1<span>x</span></li>
-              <li>Project 2<span>x</span></li>
-              <li>Project 3<span>x</span></li>
-            </ul>
-
-          </div>
+          <Dashboard2/>
         
         </div>
         <div className="middle">

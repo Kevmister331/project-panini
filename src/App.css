@@ -18,6 +18,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 10px 3%;
+    padding-left: 5px;
     background-color: #8F5B4A;
   }
   
@@ -38,13 +39,13 @@ header {
 h1 {
     color: #8F5B4A;
     font-size: 42px;
-    text-transform: uppercase;
     text-align: center;
     margin-bottom: 16px;
 }
 
 .search-box {
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
@@ -56,12 +57,15 @@ h1 {
 }
 
 .search-box input {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #885D4D;
+    border-radius: 20px;
+    padding: 5px 10px;
     display: block;
     appearance: none;
     outline: none;
-    border: none;
-
-    padding: 16px;
+    border: solid 1px #885D4D;
     width: 100%;
     transition: 0.4s;
 }
@@ -94,17 +98,17 @@ h1 {
 
   .button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 15px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #8F5B4A;
-    background-color: #FBF8EE;
+    color: #885D4D;
+    background-color: #FFECBC;
     border: none;
     border-radius: 10px;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Fredoka One', cursive;
     font-weight: 1000;
   }
   
@@ -129,7 +133,7 @@ h1 {
 
 .sideleft {
     float: left;
-    width: 20%;
+    width: 33.3%;
     min-height: 100vh;
     padding: 10px;
     background-color: #FFECBC;
@@ -137,8 +141,7 @@ h1 {
 
 .sideright {
     float: left;
-    width: 25%;
-    min-height: 100vh;
+    width: 33.3%;
     background-color: #FBF8EE;
 
     display: grid;
@@ -158,8 +161,8 @@ h1 {
 }
 
 form{
-    margin-top: 30px;
-    box-shadow: -3px 6px 4px #222;
+    margin-top: 10px;
+    border-radius: 20px;
 }
 
 
@@ -168,18 +171,19 @@ form input {
     height: 40px;
     border: none;
     outline: none;
-    padding: 0 5px;
     color: rgb(14, 12, 12);
 }
 
-form button {
-    width: 50px;
-    height: 40px;
-    border: none;
-    background: #0088a9;
-    color: white;
-    outline: none;
-    cursor: pointer;
+.search-btn {
+  font-size: 14px;
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #885D4D;
 }
 
 .list-container {
@@ -327,8 +331,9 @@ label
 }
 
 input{
-    border: 2px solid red;
-    border-radius: 4px;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 10px;
 }
 
 
@@ -362,14 +367,15 @@ button2 {
 	top:1px;
 }
 #dancing {
-    width: 10%;
-    height: 10%;
-    margin-right: auto;
+    width: 80px;
+    height: auto;
 }
 
 #panini {
+  position: relative;
     width: 30%;
     height: 30%;
+    animation: dance 1.5s linear infinite;
 }
 
 #panini2 {
@@ -384,13 +390,15 @@ button2 {
 .ideas-container {
   display: flex;
   flex-direction: column;
-  width: 700px;
-  gap: 40px;
+  width: 800px;
+  gap: 30px;
   padding: 2em;
+  border-right: solid #885D4D;
 }
 
 .ideas-container h1 {
   text-align: left;
+  margin-bottom: 0;
 }
 
 .idea-group {
@@ -399,6 +407,7 @@ button2 {
   padding: 1em;
   display: flex;
   flex-direction: row;
+  box-shadow: 0px 3px 2px #888888;
 }
 
 .idea-name {
@@ -412,14 +421,13 @@ button2 {
 }
 
 #unique {
-    padding-right: 60%;
-    padding-bottom: 6%;
+    text-align: left;
+    padding-bottom: 16px;
 }
 
 #poopy {
-    padding-right: 39%;
+    text-align: left;
     padding-top: 10%;
-    height: 10px;
 }
 
 .button-group {
@@ -454,4 +462,33 @@ button2 {
 #loading {
   height: 300px;
   width: 300px;
+}
+
+.logo-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: auto;
+}
+
+#logo-text {
+  color: #FFECBC;
+  margin-left: -25px;
+  padding-bottom: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+#main-title {
+  font-size: 64px;
+}
+
+@keyframes dance {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  
 }
