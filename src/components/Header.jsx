@@ -17,9 +17,9 @@ const Header = () => {
               </li>
           </ul>
       </nav>
-      <a target="_blank" href="https://www.google.com/">
+      <Link to="/login">
         <img src={require("../images/icons8-male-user-48.png")} alt="logo"></img>
-      </a>
+      </Link>
     </header>
   )
 }
