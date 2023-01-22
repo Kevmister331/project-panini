@@ -31,6 +31,5 @@ export default async function (keywords) {
 }
 
 function generatePrompt(keywords) {
-  return `Brainstorm some coding project ideas that combine the following keyword(s): ${keywords}
-  Ideas:`
+  return `Come up with a list of 5 coding project ideas (include a catchy project name and a project description for each idea) that combine the following keyword(s): ${keywords}`
 }
