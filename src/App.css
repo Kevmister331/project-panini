@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 3%;
+    padding: 10px 3%;
     background-color: #8F5B4A;
   }
   
@@ -137,7 +137,7 @@ h1 {
 
 .sideright {
     float: left;
-    width: 18%;
+    width: 25%;
     min-height: 100vh;
     background-color: #FBF8EE;
 
@@ -148,9 +148,11 @@ h1 {
 
 .middle {
     float: left;
-    width: 60%;
+    width: 50%;
     min-height: 100vh;
-    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
     background-color: #FBF8EE;
     text-align: left;
 }
@@ -210,6 +212,7 @@ ul li span{
     gap: 20px;
     background-color: white;
   }
+
 
 /* CSS FOR THE DASHBOARD2 PAGE */
 dashboard2body {
@@ -282,10 +285,10 @@ dashboard2body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  min-height: 20vh;
+  min-height: 60vh;
   align-items: center;
   justify-content: center;
-  background-color: #FBF8EE;
+  background-color: white;
   padding: 0.5rem;
   margin: 0.1rem;
 }
@@ -324,16 +327,25 @@ button2 {
 
 button3 {
   border: none;
-  background-color: white;
-  padding: 10px;
+  background-color: red;
+  padding: 2px;
   border-radius: 10px;
   cursor: pointer;
-  margin: 0.5rem;
+  margin: 0.2rem;
+}
+
+button4 {
+  border: none;
+  background-color: red;
+  padding: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0.1rem;
 }
 
 #dancing {
-    width: 50px;
-    height: 50px;
+    width: 10%;
+    height: 10%;
     margin-right: auto;
 }
 
@@ -370,6 +382,17 @@ button3 {
 
 .idea-desc {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#unique {
+    padding-right: 60%;
+    padding-bottom: 6%;
+}
+
+#poopy {
+    padding-right: 39%;
+    padding-top: 10%;
+    height: 10px;
 }
 
 .button-group {
