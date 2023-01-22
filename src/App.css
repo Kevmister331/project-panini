@@ -60,8 +60,8 @@ h1 {
     font-family: sans-serif;
     font-size: 14px;
     color: #885D4D;
-    border-radius: 20px;
-    padding: 5px 10px;
+    border-radius: 30px;
+    padding: 5px 20px;
     display: block;
     appearance: none;
     outline: none;
@@ -180,11 +180,11 @@ form input {
 
 .search-btn {
   font-size: 14px;
-  width: 90px;
-  height: 40px;
+  width: 120px;
+  height: 60px;
   border: none;
   background-color: #FFFFFF;
-  border-radius: 20px;
+  border-radius: 30px;
   outline: none;
   cursor: pointer;
   border: solid 1px #885D4D;
