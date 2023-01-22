@@ -5,7 +5,6 @@ import Dashboard2 from './pages/Dashboard2';
 import Header from './components/Header'
 import Login from './pages/Login'
 
-
 function App() {
   return (
     <>
