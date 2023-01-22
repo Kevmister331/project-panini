@@ -162,6 +162,7 @@ form{
     box-shadow: -3px 6px 4px #222;
 }
 
+
 form input {
     width: 250px;
     height: 40px;
@@ -281,17 +282,34 @@ dashboard2body {
 
 
 /* CSS FOR THE LOGIN PAGE */
-.auth-form-container, .login-form {
+.auth-form-container {
   text-align: center;
   display: flex;
   flex-direction: column;
-  min-height: 60vh;
+
   align-items: center;
   justify-content: center;
-  background-color: white;
+
   padding: 0.5rem;
   margin: 0.1rem;
 }
+
+.login-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 50vh;
+    align-items: center;
+    justify-content: center;
+  
+    padding: 1rem;
+    margin: 0.1rem;
+    background-color: white;
+    box-shadow: none;
+  }
+
+
 
 @media screen and (min-width: 600px){
   .auth-form-container{
@@ -309,11 +327,10 @@ label
 }
 
 input{
-  margin: 0.5rem 0;
-  padding: 1rem;
-  border: none;
-  border-radius: 10px;
+    border: 2px solid red;
+    border-radius: 4px;
 }
+
 
 button2 {
   border: none;
@@ -327,30 +344,23 @@ button2 {
   font-size: 9px;
 }
 
-button3 {
-  border: none;
-  background-color: #885D4D;
-  color: white;
-  padding: 2px;
-  border-radius: 20px;
-  cursor: pointer;
-  margin: 0.2rem;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 9px;
+.submit {
+	background-color:#885D4D;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:16px 31px;
+	text-decoration:none;
+    width: 300px;
+    margin-bottom: 8px;
 }
 
-button4 {
-  border: none;
-  background-color: #885D4D;
-  color: white;
-  padding: 2px;
-  border-radius: 10px;
-  cursor: pointer;
-  margin: 0.1rem;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 9px;
+.submit:active {
+    background-color: #5A3A2F;
+	position:relative;
+	top:1px;
 }
-
 #dancing {
     width: 10%;
     height: 10%;
@@ -360,6 +370,15 @@ button4 {
 #panini {
     width: 30%;
     height: 30%;
+}
+
+#panini2 {
+    width: 45%;
+    height: 20%;
+}
+
+#black {
+    color: black;
 }
 
 .ideas-container {
