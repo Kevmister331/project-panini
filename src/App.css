@@ -85,7 +85,8 @@ h1 {
   }
   
   .nav__links li {
-    padding: 3px 7px;
+    padding: 5px 7px;
+    height: 50px;
   }
   
   .nav__links li a {
@@ -98,7 +99,7 @@ h1 {
 
   .button {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 15px 15px;
     font-size: 15px;
     cursor: pointer;
     text-align: center;
@@ -469,6 +470,7 @@ button2 {
   justify-content: flex-start;
   align-items: center;
   margin-right: auto;
+  text-decoration: none;
 }
 
 #logo-text {
@@ -477,6 +479,7 @@ button2 {
   padding-bottom: 5px;
   width: 80px;
   text-align: center;
+  text-decoration: none;
 }
 
 #main-title {
