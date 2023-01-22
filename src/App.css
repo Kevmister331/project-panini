@@ -73,6 +73,7 @@ h1 {
 .nav__links {
     list-style: none;
     display: flex;
+    margin-bottom: 0;
   }
   
   .nav__links a,
@@ -99,7 +100,7 @@ h1 {
   .button {
     display: inline-block;
     padding: 10px 15px;
-    font-size: 15px;
+    font-size: 14px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -133,9 +134,9 @@ h1 {
 
 .sideleft {
     float: left;
-    width: 25%;
+    width: 20%;
     min-height: 100vh;
-    padding: 10px;
+    padding: 10px 15px 0px 15px;
     background-color: #FFECBC;
 }
 
@@ -214,8 +215,9 @@ ul li span{
 .one-box {
     display: grid;
     border-style: solid;
-    gap: 20px;
     background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
   }
 
 
@@ -226,14 +228,16 @@ dashboard2body {
 }
 
 .taskBg{
-  background-color: white;
-  border-radius: 6px;
-  margin-bottom: 20px;
-  padding: 10px 140px 10px 15px;
+  background-color: #FFECBC;
+  padding: 10px 0px 10px 15px;
   text-align: left;
-  font-size: 22px;
+  font-size: 15px;
   position: relative;
+  border-top: 1px solid #885D4D;
+}
 
+.project-sidebar:nth-last-child(2) {
+  border-bottom: 1px solid #885D4D;
 }
 
 .taskBg .done .taskText{
@@ -427,7 +431,8 @@ button2 {
 
 #poopy {
     text-align: left;
-    padding-top: 10%;
+    padding-top: 40px;
+    margin-bottom: 0px;
 }
 
 .button-group {
@@ -540,4 +545,24 @@ button2 {
 
 .selected {
   background: #FFDA7B;
+}
+
+.new-project-btn {
+  border: solid 1px #885D4D;
+  background: #FBF8EE;
+  width: 100%;
+}
+
+.add-project-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#new-input {
+  font-size: 14px;
+}
+
+.project-description p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

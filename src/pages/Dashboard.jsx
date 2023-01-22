@@ -9,13 +9,11 @@ const Dashboard = () => {
       <link rel="stylesheet" href="style.css"></link>
         <div className="sideleft">
           <Dashboard2/>
-        
         </div>
         <div className="middle">
-          <h1 id="unique">Project 1</h1>
-          <div className="one-box">
-            <h3>Tasks</h3>
-            <p>Task description here</p>
+          <h1 id="unique">Court Vision</h1>
+          <div className="project-description">
+            <p>Develop an AI-enabled system that can observe and analyze the movements of NBA players on the court in real-time and provide valuable insights on player performance.</p>
         </div>
         </div>
         <div className="sideright">

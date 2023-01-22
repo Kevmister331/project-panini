@@ -2,14 +2,12 @@ import SearchIcon from '@mui/icons-material/Search';
 import {useState} from 'react';
 
 const FilterOptions = (props) => {
-  let [keywordInput, setKeywordInput] = useState("");
+  let [keywordInput, setKeywordInput] = useState(props.keywords);
   let [difficulty, setDifficulty] = useState("experienced");
 
-  keywordInput = props.keywords
-
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
-    props.onSubmit();
+    console.log(await props.onSubmit());
   }
 
   return (
