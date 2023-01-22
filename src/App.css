@@ -365,17 +365,27 @@ button4 {
 .ideas-container {
   display: flex;
   flex-direction: column;
+  width: 700px;
   gap: 40px;
   padding: 2em;
 }
 
+.ideas-container h1 {
+  text-align: left;
+}
+
 .idea-group {
-  width: 700px;
-  background-color: #FBF8EE;
+  background-color: #FFFFFF;
   border-radius: 15px;
   padding: 1em;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.idea-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 1.5em;
 }
 
 .idea-desc {
@@ -391,4 +401,21 @@ button4 {
     padding-right: 39%;
     padding-top: 10%;
     height: 10px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.add-btn {
+  box-shadow: none;
+}
+
+.add-btn:hover .plus-svg {
+  fill: #885D4D;
 }
