@@ -17,6 +17,8 @@ const Login = () => {
         <p id="black">Enter your details to sign</p>
         <p id="black">in to your account</p>
         <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="email" id="email" name="email"/>
+        <h5>  </h5>
+        <h5>  </h5>
         <input value={pass} onChange={(e) => setPass(e.target.value)}type="password" placeholder="password" id="password" name="password"/>
         <button2>Having trouble signing in?</button2>
         <button class="submit" type="submit">Log In</button>

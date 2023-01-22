@@ -86,7 +86,8 @@ h1 {
   }
   
   .nav__links li {
-    padding: 3px 7px;
+    padding: 5px 7px;
+    height: 50px;
   }
   
   .nav__links li a {
@@ -168,11 +169,13 @@ form{
 
 
 form input {
-    width: 250px;
-    height: 40px;
-    border: none;
+    width: 300px;
+    height: 60px;
+    border: solid 1px #885D4D;
     outline: none;
     color: rgb(14, 12, 12);
+    font-size: 15px;
+    padding-left: 10px;
 }
 
 .search-btn {
@@ -355,11 +358,11 @@ button2 {
 
 .submit {
 	background-color:#885D4D;
-	border-radius:28px;
+	border-radius:20px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	padding:16px 31px;
+	padding:5px 31px;
 	text-decoration:none;
     width: 300px;
     margin-bottom: 8px;
@@ -474,6 +477,7 @@ button2 {
   justify-content: flex-start;
   align-items: center;
   margin-right: auto;
+  text-decoration: none;
 }
 
 #logo-text {
@@ -482,6 +486,7 @@ button2 {
   padding-bottom: 5px;
   width: 80px;
   text-align: center;
+  text-decoration: none;
 }
 
 #main-title {
